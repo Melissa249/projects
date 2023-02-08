@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+//probelm 13
+bool even( int x);
+
+int main()
+ {
+     int x;
+     cout<< "enter a number to check if it’s even"<<endl;
+     cin>> x;
+     cout<< even(x);
+     return 0;
+}
+
+bool even(int x)
+{
+    if (x%2==0){
+    cout<<x<< " is even"<<endl;
+    return 1;
+    }
+    else {
+        cout<<x<< " is not even"<<endl;
+    return 0;
+    }
+}
