@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  string EnterName;
+    cout<<("Welcome to CS 280")<<endl;
+    cout<<"What is your name?"<<endl;
+    cin>>EnterName;
+    cout<<EnterName<<endl;
+    cout<<"Hello, "<<EnterName<<endl;
+
+    return 0;
+}
+
